@@ -1,0 +1,40 @@
+@import "./satoshi.css";
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-satoshi-regular: 'Satoshi-Regular', sans-serif;
+  --font-satoshi-light: 'Satoshi-Light', sans-serif;
+  --font-satoshi-bold: 'Satoshi-Bold', sans-serif;
+  --font-satoshi-black: 'Satoshi-Black', sans-serif;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+body.modal-open {
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.grayscalex {
+  filter: grayscale(1);
+}
