@@ -4,13 +4,11 @@ export default function DashboardUserLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      {/* Aquí puedes poner tu navbar o sidebar */}
-      <nav className="bg-gray-900 text-white p-4">User Navbar</nav>
-
-      <main className="flex-grow p-6">
-        {children}
-      </main>
+    <div className="min-h-screen bg-white text-gray-900">
+      <header className="bg-blue-600 text-white p-4">
+        Bienvenido, Cliente
+      </header>
+      <main className="p-6">{children}</main>
     </div>
   );
 }

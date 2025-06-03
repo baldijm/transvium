@@ -1,8 +1,8 @@
 import React from 'react'
-import GlobeSVG from './svgs/globe'
-import SparkSVG from './svgs/spark'
-import TransportSVG from './svgs/transport'
-import ShieldSVG from './svgs/shield'
+import GlobeSVG from '../svgs/globe'
+import SparkSVG from '../svgs/spark'
+import TransportSVG from '../svgs/transport'
+import ShieldSVG from '../svgs/shield'
 import EnterOpacity from './enter-opacity'
 
 const cards = [
@@ -35,7 +35,7 @@ export default function Cards() {
       <div className="absolute inset-0 rounded-[16px] bg-zinc-900 drop-shadow-xl flex flex-col items-center justify-center p-4 text-zinc-200 hover:outline">
         <div className="w-full flex flex-col items-center justify-center gap-2 px-2">
           {card.icon}
-          <p className="text-[clamp(12px,1.5vw,20px)] text-center leading-snug break-words">
+          <p className="text-[8px] md:text-[clamp(11px,1.5vw,20px)] normal-phone:text-[11px]  text-center leading-snug break-words">
             {card.text}
           </p>
         </div>

@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./ui/globals.css";
-import FontPreloader from "./componentes/font-preloader";
-import ScrollSaver from "./componentes/scroll-saver";
-import NavTvium from "./componentes/navigation/nav-tvium";
+import ScrollSaver from "./componentes/site/scroll-saver";
+import FontPreloader from "./componentes/site/font-preloader";
 
 
 export const metadata: Metadata = {
@@ -24,7 +23,6 @@ export default function RootLayout({
       className=''
       >
         <ScrollSaver/>
-        <NavTvium/>
         {children}
       </body>
     </html>

@@ -8,7 +8,7 @@ export default function VideoTest() {
       
       {/* Video */}
       <video 
-        className='w-full h-full object-cover grayscalex absolute z-0 top-0 left-0 opacity-80' 
+        className='w-full h-full object-cover absolute z-0 top-0 left-0 opacity-80' 
         autoPlay 
         loop 
         muted 

@@ -14,6 +14,7 @@
   --font-satoshi-bold: 'Satoshi-Bold', sans-serif;
   --font-satoshi-black: 'Satoshi-Black', sans-serif;
 
+  --breakpoint-normal-phone: 321px;
 }
 
 @media (prefers-color-scheme: dark) {

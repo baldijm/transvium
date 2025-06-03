@@ -1,10 +1,10 @@
 import React from 'react'
-import VideoTest from './componentes/videotest'
-import HeroSectionTransvium from './componentes/herosectiontransvium'
-import Cards from './componentes/cards'
-import EnterOpacity from './componentes/enter-opacity'
-import HowItWorks from './componentes/howitworks'
-import FooterTransvium from './componentes/footer'
+import VideoTest from '../componentes/site/videotest'
+import HeroSectionTransvium from '../componentes/site/herosectiontransvium'
+import Cards from '../componentes/site/cards'
+import EnterOpacity from '../componentes/site/enter-opacity'
+import HowItWorks from '../componentes/site/howitworks'
+import FooterTransvium from '../componentes/site/footer'
 
 export default function TransviumHome() {
   return (

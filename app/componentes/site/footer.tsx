@@ -1,5 +1,5 @@
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
-import SVGLogo from "./svgtrans";
+import SVGLogo from "./svglogo";
 
 export default function FooterTransvium() {
   return (

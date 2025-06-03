@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import ArrowRightSVG from './svgs/arrow-right'
+import ArrowRightSVG from '../svgs/arrow-right'
 
 export default function Modal() {
   // Estado para controlar si el modal está abierto o cerrado
