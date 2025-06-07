@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { ReactNode } from 'react'
+import NavDashUser from '@/app/componentes/dashboard/user/nav-user-dash'
 
-export default function DashboardUserLayout({
+export default async function DashboardUserLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  children: ReactNode
+  params: { cuenta: string }
+}) {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      <header className="bg-blue-600 text-white p-4">
-        Bienvenido, Cliente
-      </header>
-      <main className="p-6">{children}</main>
+    <div className="min-h-screen flex">
+      <aside className="w-64 bg-zinc-900 text-white p-4">
+        <NavDashUser/>
+      </aside>
+      <main className="flex-1 bg-neutral-950 p-6">{children}</main>
     </div>
-  );
+  )
 }

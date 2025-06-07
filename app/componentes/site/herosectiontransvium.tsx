@@ -7,7 +7,7 @@ export default function HeroSectionTransvium() {
     <section className=' h-full w-full flex items-center justify-center'>
       <div id='wrapper' className='flex flex-col justify-center items-center h-max gap-[0.5rem] mt-[3rem] xl:mt-0 text-center'>
         <EnterOpacity>
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-center justify-center gap-2'>
         <h1 className='leading-[1.1] text-shadow text-[clamp(35px,6vw,80px)] font-satoshi-black'>
           <span className='block'><span className='text-[#E74C3C]'>Máximo</span> rendimiento</span>
           <span className='block'>para tu operación logística</span>

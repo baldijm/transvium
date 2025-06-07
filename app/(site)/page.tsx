@@ -15,7 +15,7 @@ export default function TransviumHome() {
             <HeroSectionTransvium/>
         </div>
       </div>
-      <div className='h-[500px] flex justify-center items-center'>
+      <div className='py-[3rem] flex justify-center items-center'>
         <div className='h-max w-full'>
         <Cards/>
         </div>

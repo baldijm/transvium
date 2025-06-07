@@ -35,7 +35,7 @@ export default function Cards() {
       <div className="absolute inset-0 rounded-[16px] bg-zinc-900 drop-shadow-xl flex flex-col items-center justify-center p-4 text-zinc-200 hover:outline">
         <div className="w-full flex flex-col items-center justify-center gap-2 px-2">
           {card.icon}
-          <p className="text-[8px] md:text-[clamp(11px,1.5vw,20px)] normal-phone:text-[11px]  text-center leading-snug break-words">
+          <p className="text-[12px] min-responsive-pc:text-[clamp(16px,1.2vw,20px)] md:text-[clamp(11px,1.2vw,30px)]  text-center leading-snug break-words">
             {card.text}
           </p>
         </div>

@@ -1,7 +1,11 @@
+import InvoicePanel from '@/app/componentes/dashboard/admin/modulos/invoice/invoice-panel'
 import React from 'react'
+
 
 export default function DashboardAdminPage() {
   return (
-    <div>DashboardAdminPage</div>
+    <div className="min-h-screen text-white">
+      <InvoicePanel/>
+    </div> 
   )
 }

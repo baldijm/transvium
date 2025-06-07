@@ -1,11 +1,13 @@
 import React from 'react'
 import LogoTvium from '../site/logo'
+import LoginModal from './login'
 
 export default function NavTvium() {
   return (
     <nav className=' fixed w-full flex z-10'>
       <div className='h-[4.4rem] w-full flex items-center p-4 bg-[rgba(0,0,0,0.65)] backdrop-blur-[12px] md:bg-transparent md:backdrop-blur-none lg:mt-[2rem] lg:mx-[4rem]'>
           <LogoTvium className='h-[50px] flex items-center text-2xl'/>
+          <LoginModal/>
       </div>
     </nav>
   )
